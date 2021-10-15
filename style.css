@@ -1,0 +1,359 @@
+.page-site{
+	max-width: 1920px;
+	margin-right: auto;
+    margin-left: auto;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+	max-width: 1176px;
+}
+.header{
+	background: linear-gradient(to right, #79220a, #b6270f, #79220a);
+}
+.header-boxed{
+	padding-top: 71px;
+	padding-bottom: 65px;
+}
+.logo-link{
+	font-family: 'Barlow', sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 2.8rem;
+	text-decoration: none;
+}
+.form-search{
+	width: 400px;
+	height: 50px;
+	border: 2px solid #692924;
+	border-radius: 5px;
+	outline: none;
+	font-size: 1.5rem;
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.logo{
+	display: flex;
+	align-self: center;
+}
+.header-form-search{
+	display: flex;
+	flex-wrap: wrap;
+	align-self: center;
+}
+.form-button{
+	margin-left: auto;
+	width: 130px;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	background: #692924;
+	cursor: pointer;
+}
+.text-button{
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	position: relative;
+	padding-left: 20px;
+}
+.text-button:before{
+	content: url('./image/search-icon.png');
+	position: absolute;
+	top: 50%;
+	left: -10px;
+	transform: translateY(-50%);
+}
+.shop-icon{
+	content: url('./image/shop-icon.png');
+
+}
+.link-shop{
+	display: block;
+	align-self: center;
+}
+.shop-boxed{
+	display: flex;
+	align-self: center;
+}
+.shop-button{
+	height: 48px;
+	width: 177px;
+	margin-left: auto;
+	text-align: center;
+	background: #ffcc00;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	padding: 12px 0px;
+	padding-left: 30px;
+}
+.shop-text{
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 300;
+	display: inline-block;
+	position: relative;
+}
+.shop-text:before{
+	position: absolute;
+	content: url('./image/window-icon.png');
+	top: 50%;
+	left: -35px;
+	transform: translateY(-50%);
+}
+
+.nav-menu{
+	background: linear-gradient(#55211d, #672823, #55211d);
+}
+.navbar-item{
+	display: inline-block;
+	padding: 25px 12px;
+}
+.navbar-item:hover{
+	background: linear-gradient(#9e3b35, #c34941);
+	transition: 1s ease-in-out;
+}
+.navbar-link{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+}
+img{
+	width: 100%;
+	display: block;
+}
+.title{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	color: #b62117;
+	display: flex;
+	align-self: center;
+	padding-bottom: 15px;
+	font-size: 18px;
+}
+.title i{
+	font-size: 11px;
+	align-self: center;
+	padding-right: 5px;
+}
+.post-time{
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	color: #666666;
+	font-weight: 400;
+	font-size: 1rem;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.post-link-title{
+	color: #b51a10;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 23px;
+}
+.post-text{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	color: #666666;
+	font-weight: 500;
+	padding-top: 15px;
+	padding-bottom: 35px;
+	line-height: 1.5;
+
+}
+.post-link{
+	text-decoration: none;
+	color: #666666;
+}
+.title-text{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	line-height: 1.5;
+	font-size: 1rem;
+	padding-top: 15px;
+}
+.owl-theme .owl-nav [class*='owl-']{
+	background: transparent !important;
+	position: absolute;
+	opacity: 0.5;
+}
+#slider{
+	position: relative;
+	overflow: hidden;
+}
+.owl-prev{
+	top: 30%;
+	left: -20px;
+	transform: translateY(-30%);
+}
+.owl-next{
+	top: 30%;
+	right: -20px;
+	transform: translateY(-30%);
+}
+.game-boxed{
+	margin-top: 30px;
+}
+.game-boxed:last-child{
+	margin-bottom: 60px;
+}
+.news-top{
+	margin-top: 35px;
+}
+.title-game{
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	background: #b0260e;
+	color: #ffffff;
+	padding: 10px 30px 10px 28px;
+	position: relative;
+}
+.title-game i{
+	font-size: 12px;
+	align-self: center;
+	position: absolute;
+	top: 50%;
+	left: 8px;
+	transform: translateY(-50%);
+}
+.box-title-game{
+	border-bottom: 2px solid #b0260e;
+}
+.wrapper-game-boxed{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.card-image{
+	width: 141px;
+	height: 141px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.card-name{
+	display: block;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	color: #666666;
+	font-weight: 500;
+	padding-top: 15px;
+}
+.card:first-child{
+	margin-bottom: 45px;
+}
+
+.view-all{
+	display: inline-block;
+	text-align: right;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #b0260e;
+}
+.view-all i{
+	display: inline-block;
+	padding: 0px 5px;
+}
+.view-all-boxed{
+	text-align: right;
+	margin-top: 15px;
+}
+.sidebar{
+	margin-top: 35px;
+	margin-bottom: 50px;
+}
+.sidebar-game-name{
+	display: block;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	color: #666666;
+	font-weight: 500;
+	padding-left: 14px;
+	padding-top: 13px;
+}
+.sidebar-box-game:not(:nth-of-type(1)){
+	padding-top: 10px;
+}
+.sidebar-box-game{
+	display: flex;
+}
+.sidebar-box-game:not(:last-child){
+	padding-bottom: 12px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.sidebar-game-image{
+	width: 82px;
+	height: 82px;
+	object-fit: cover;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+
+.footer-top{
+	background: #701f19;
+}
+.footer-title-text{
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	position: relative;
+}
+.footer-title-text:before{
+	content: "";
+	background: #ffffff;
+	width: 44px;
+	height: 6px;
+	position: absolute;
+	bottom: 0;
+	transform: translateY(0%);
+}
+.footer-title{
+	background: #a8231a;
+}
+
+.footer-menu-link{
+	text-decoration: none;
+	color: #f3eee6;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	line-height: 1.5;
+	display: inline-block;
+}
+.footer-menu-item{
+	margin-top: 25px;
+}
+.footer-bottom-text{
+	text-align: center;
+	background: #4f1515;
+	color: #8b2f28;
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	padding: 12px 0px;
+}
+.footer-boxed{
+	padding: 45px 0px;
+}
